@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+ul, li, ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: #F8FAFD !important;
+  overflow-y: hidden;
+}
+.login-form{
+  position: relative;
+  background-color: white;
+  height: 100vh;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form2{
+  width: 500px!important;
+  height: 500px!important;
+  border-radius: 10px!important;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1)!important;
+}
+.btn{
+  border: 1px solid #1E64D4!important;
+  font-weight: 500!important;
+  font-size: 22px!important;
+  padding: 5px 30px 5px 30px !important;
+  transition: all 0.3s ease!important;
+}
+.btn22:hover{
+  background-color: #1E64D4 !important;
+  color: white !important;
+}
+form img{
+  width: 200px;
+  height: 200px;
+}

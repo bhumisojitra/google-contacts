@@ -1,0 +1,104 @@
+.page-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar{
+    width: 284px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease-in;
+}
+.drop{
+    padding: 14px 10px 14px 14px!important;
+}
+.logo-bar{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-family: 'Product Sans', Arial, sans-serif;
+    color: #5f6368;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 0px 18px 0px 4px;
+    letter-spacing: 0.3px;
+}
+.sidebar-navigation{
+    padding: 10px 0px 6px 12px;
+}
+.dropdown-toggle::after{
+    display: none;
+    opacity: 0;
+}
+.dropdown-toggle span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #001D35;
+}
+.dropdown-togglee:hover, .dropdown-menuu{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+} 
+.dropdown-item-text:hover {
+    background-color: #D5DCE5;
+    color: white;
+}
+.side-bar.active{
+    background-color: #C2E7FF;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.side-bar.active a:hover{
+    background-color: #B4DCFC;
+}
+.side-bar a{
+    background-color: #C2E7FF;
+    padding: 10px 16px;
+    color: #001D35;
+}
+.side ul{
+    padding: 0px 30px 14px 14px;
+}
+.side-bar a span{
+    font-size: 14px;
+}
+.side-bar a{
+    background-color: transparent; 
+}
+.side-bar a:hover{
+    background-color: #E6EDFA;
+    padding: 10px 16px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+.hoverr, .hoverrr{
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hoverr:hover, .hoverrr:hover{
+    background-color: #E9EBED;
+}
+.hoverrr{
+    width: 38px;
+    height: 38px;
+}
+.side {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    overflow-y: scroll;
+    height: calc(100% - 88px);
+}
+.side::-webkit-scrollbar{
+    display: none;
+}
